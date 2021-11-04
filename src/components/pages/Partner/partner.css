@@ -1,0 +1,73 @@
+
+.partnerChange {
+  display: flex;
+}
+.partnerChange p a {
+  color: #1f2022;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.partnerChange span a {
+  color: #1f2022;
+  cursor: pointer;
+  text-decoration: none;
+}
+.partnerChange label {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+}
+.partnerLogoWrap {
+  padding: 50px 135px;
+}
+.companyLogo {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.cardCompanyLogo {
+  width: 274px;
+  height: 154px;
+  background-color: #ffffff;
+  border-radius: 27.4451px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.cardCompanyLogo img {
+  width: 100px;
+}
+
+@media (max-width: 820px) {
+  .partnerLogoWrap {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 648px) {
+    .wrapperHeader h1 {
+        font-size: 30px;
+    }
+  .companyLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .partnerChange {
+    font-size: 12px;
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 365px) {
+  .cardCompanyLogo {
+    width: 200px;
+  }
+  .partnerChange {
+    padding: 20px 0px;
+  }
+}

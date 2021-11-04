@@ -1,0 +1,158 @@
+.client {
+  padding: 50px 135px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.cardSwiperContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin: 100px 0; */
+}
+.cardSwiper {
+  margin: 50px 0;
+}
+.client h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #011a61;
+  margin: 80px 0;
+}
+.client p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #70798b;
+}
+.client span img {
+  position: relative;
+  left: 5px;
+  bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 16px 24px 56px rgba(96, 1, 211, 0.05);
+}
+.cardSwiper {
+  width: 374px;
+  background: #ffffff;
+  box-shadow: 16px 24px 56px rgba(96, 1, 211, 0.05);
+  border-radius: 15px;
+  padding: 0px 24px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.cardSwiper:hover {
+  background-color: #6001d3;
+  -webkit-box-shadow: -1px 17px 18px 10px rgba(34, 60, 80, 0.22);
+  -moz-box-shadow: -1px 17px 18px 10px rgba(34, 60, 80, 0.22);
+  box-shadow: -1px 17px 18px 10px rgba(34, 60, 80, 0.22);
+}
+.cardSwiper:hover h5 {
+  color: #fff;
+}
+.cardSwiper:hover p {
+  color: #fff;
+}
+.cardSwiper:hover .cardStarLike i {
+  color: #fdf534;
+}
+.cardSwiper h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #011a61;
+}
+.cardSwiper span {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #b6bbc4;
+}
+.cardSwiperLike {
+  border-top: 1px solid #70798b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardSwiperLike i {
+  color: #fd346e;
+  font-size: 18px;
+}
+.swiperClass {
+  margin-top: 50px;
+}
+
+.swiper-button-next:after {
+  display: none;
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: all.5s ease;
+  color: black;
+  -webkit-box-shadow: 2px 5px 20px 6px rgba(247, 71, 122, 0.48);
+-moz-box-shadow: 2px 5px 20px 6px rgba(247, 71, 122, 0.48);
+box-shadow: 2px 5px 20px 6px rgba(247, 71, 122, 0.48);
+
+}
+.swiper-button-prev:after {
+  display: none;
+  position: relative;
+  left: 10px;
+  bottom: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 20px;
+  -webkit-box-shadow: 2px 5px 20px 6px rgba(247, 71, 122, 0.48);
+  -moz-box-shadow: 2px 5px 20px 6px rgba(247, 71, 122, 0.48);
+  box-shadow: 2px 5px 20px 6px rgba(247, 71, 122, 0.48);
+  transition: all.5s ease;
+  color: black;
+
+}
+.swiper-button-prev:hover:after{
+  background-color: #fd346e;
+  color: #fff;
+}
+.swiper-button-next:hover:after{
+  background-color: #fd346e;
+  color: #fff;
+}
+.mySwiper:hover .swiper-button-prev:after {
+  transition: all.5s ease;
+  display: block;
+}
+.mySwiper:hover .swiper-button-next:after {
+  display: block;
+}
+
+.mySwiper  {
+  transition: all 0.5s ease;
+}
+
+@media (max-width:1030px) {
+ 
+  .cardSwiperContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width:733px) {
+  .client {
+    padding: 50px 50px;
+  }
+  .client h1{
+    font-size: 35px;
+  }
+  .cardStarLike .css-i4bv87-MuiSvgIcon-root {
+    font-size: 18px;
+  }
+}

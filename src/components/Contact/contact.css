@@ -1,0 +1,174 @@
+.contactWrap {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 150px;
+}
+.leftContact {
+  flex: 4;
+  padding-right: 50px;
+}
+.rightContact {
+  flex: 2;
+}
+.rightContact p {
+  margin-bottom: 0px;
+  padding: 5px 0;
+}
+.leftContact h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 150%;
+  color: #011a61;
+}
+.leftContact p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 159%;
+  color: #70798b;
+}
+.aboutContact {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #011a61;
+  margin: 25px 0;
+}
+.aboutContact i {
+  margin-right: 20px;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+}
+.rightContact input {
+  padding-left: 15px;
+}
+.rightContact button,
+input {
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #011a61;
+}
+
+.textArea button {
+  cursor: pointer;
+  margin-top: 20px;
+  background: #011a61;
+  color: #ffff;
+}
+.inputPhone .react-tel-input .form-control {
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #011a61;
+}
+.inputPhone .react-tel-input .selected-flag {
+  background-color: #fff;
+}
+.textArea textarea {
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #011a61;
+  border-radius: 12px;
+}
+.inputError {
+  color: red;
+}
+.thanks {
+  color: #011a61;
+}
+
+@media (max-width: 1018px) {
+  .contactWrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftContact h1 {
+    font-size: 40px;
+  }
+  .aboutContact span {
+    font-size: 15px;
+  }
+  .rightContact {
+    max-width: 450px;
+  }
+}
+
+
+
+
+@media (max-width: 710px) {
+  .contactWrap {
+    padding: 20px 50px;
+  }
+  .leftContact h1 {
+    font-size: 30px;
+  }
+  .leftContact p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 475px) {
+  .contactWrap {
+    /* padding-top: 100px; */
+  }
+  
+}
+
+@media (max-width: 438px) {
+  .contactWrap {
+    /* padding-top: 150px; */
+  }
+  
+}
+
+@media (max-width: 399px) {
+  .contactWrap {
+    /* padding-top: 300px; */
+  }
+  
+}
+
+@media (max-width: 376px) {
+  .contactWrap {
+    /* padding-top: 400px; */
+  }
+  .leftContact h1 {
+    font-size: 25px;
+  }
+  .leftContact p {
+    font-size: 12px;
+  }
+  
+}
+
+@media (max-width: 360px) {
+  .contactWrap {
+    /* padding-top: 400px; */
+  }
+  .leftContact h1 {
+    font-size: 25px;
+  }
+  .leftContact p {
+    font-size: 12px;
+  }
+  
+}

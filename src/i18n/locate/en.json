@@ -1,0 +1,32 @@
+{
+  "translations": {
+    "navbar": {
+      "product": "Categories",
+      "partner": "Partners",
+      "bayer": "Bayer",
+      "request": "Leave a request"
+    },
+    "header": {
+      "mainHeader": "Distributor of trusted medical products!"
+    },
+    "about": {
+      "header": "About us",
+      "paragraph": "Akpharm is a company based on trusting, honest relationships with partners and employees. We build our business based on values and traditions that have not changed since the foundation of the company. It is important for us to share our success with people who are engaged in common business with us. We see our development in the joint solution of problems that face us and our clients.",
+      "staff": "staff",
+      "suppliers": "suppliers",
+      "client": "clients"
+    },
+    "clinic": {
+      "header": "Why partner with us?",
+      "paragraph": "Reasonable prices, high-quality and hard-to-find products, effective and friendly cooperation will interest you to partner with us."
+    },
+    "clinicIcon": {
+      "header": "Own clinic",
+      "paragraph": "We manage the largest and most trusted medical clinic"
+    },
+    "clinicIcon1": {
+      "header": "Own chain of pharmacies",
+      "paragraph": "We own chain of pharmacies that are opening and spreading across Uzbekistan."
+    }
+  }
+}

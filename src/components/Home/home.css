@@ -1,0 +1,37 @@
+/* .header {
+  color: #fff;
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.header h1{
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 50px;
+} */
+
+@media (max-width: 1024px) {
+  .home {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 800px) {
+  /* .header h1{
+    font-size: 30px;
+  } */
+  .home {
+    height: 70vh;
+  }
+}
+@media (max-width: 775px) {
+  /* .header h1{
+    font-size: 35px;
+  } */
+}
+@media (max-width: 385px) {
+  /* .header h1{
+    font-size: 20px;
+  } */
+}

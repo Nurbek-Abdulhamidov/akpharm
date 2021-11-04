@@ -1,0 +1,250 @@
+.about {
+  margin: 0 auto;
+  display: flex;
+  background-color: #F3F4F6;
+  padding: 0 135px;
+  max-width: 1640px;
+}
+.left {
+  flex: 6;
+}
+.right {
+  flex: 4;
+  text-align: left;
+  padding: 100px 100px;
+}
+.right h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  color: #011a61;
+}
+.right p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #70798b;
+}
+.about img {
+  border-radius: 20px;
+  position: absolute;
+}
+.about .firstImg {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 350px;
+}
+.about .secondImg {
+  position: relative;
+  bottom: 40px;
+  left: 280px;
+  width: 400px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+/* .result1{
+    border-right: 1px solid;
+    color:gray;
+} */
+.result1 p {
+  /* padding-right: 50px; */
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  color: #6001d3;
+  margin: 10px 0;
+}
+.result1 span {
+    /* padding-right: 50px; */
+  font-weight: 600;
+  font-size: 14px;
+  color: #6001d3;
+}
+
+@media (max-width:1460px) {
+    .left .firstImg{
+        width: 350px;
+    }
+    .left .secondImg{
+        width: 390px;
+    }
+}
+
+@media (max-width:1450px) {
+    .left .firstImg{
+        width: 320px;
+    }
+    .left .secondImg{
+        width: 360px;
+        /* position: relative;
+        top: 250px;
+        left: -80px; */
+    }
+}
+@media (max-width:1395px) {
+    .left .firstImg{
+        width: 300px;
+    }
+    .left .secondImg{
+        width: 340px;
+    }
+}
+
+@media (max-width:1355px) {
+    .left .firstImg{
+        width: 280px;
+    }
+    .left .secondImg{
+        width: 310px;
+    }
+}
+
+@media (max-width:1305px) {
+    
+    .left .firstImg{
+        width: 250px;
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    .left .secondImg{
+        width: 280px;
+        position: relative;
+        top: 50px;
+        right: 50px;
+    }
+}
+
+@media (max-width:1245px) {
+    .left .firstImg{
+        width: 350px;
+        position: relative;
+        top: 120px;
+        left: 0px;
+    }
+    .left .secondImg{
+        width: 350px;
+        position: relative;
+        top: 150px;
+        left: 0px;
+    }
+}
+@media (max-width:990px) {
+    .left .firstImg{
+        width: 260px;
+        position: relative;
+        top: 150px;
+        left: 80px;
+    }
+    .left .secondImg{
+        width: 260px;
+        position: relative;
+        top: 180px;
+        left: 80px;
+    }
+    .result1 p{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:810px) {
+    .left .firstImg{
+        width: 200px;
+        position: relative;
+        top: 150px;
+        left: 80px;
+    }
+    .left .secondImg{
+        width: 200px;
+        position: relative;
+        top: 180px;
+        left: 80px;
+    }
+    .result1 p{
+        font-size: 35px;
+    }
+    .right h1{
+        font-size: 25px;
+    }
+}
+@media (max-width:780px) {
+    .about{
+        padding: 0 70px;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        padding: 0 0;
+    }
+}
+
+@media (max-width:570px) {
+    .numbers {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* @media (max-width:760px) {
+    .left .firstImg{
+        width: 220px;
+        position: relative;
+        top: 150px;
+        left: 100px;
+    }
+    .left .secondImg{
+        width: 220px;
+        position: relative;
+        top: 180px;
+        left: 100px;
+    }
+}
+@media (max-width:720px) {
+    .left .firstImg{
+        width: 180px;
+        position: relative;
+        top: 220px;
+        left: 50px;
+    }
+    .left .secondImg{
+        width: 180px;
+        position: relative;
+        top: 250px;
+        left: 50px;
+    }
+}
+@media (max-width:670px) {
+    .left {
+        display: none;
+    }
+}
+@media (max-width:450px) {
+    .numbers {
+        display: flex;
+        flex-direction: column;
+    }
+    .right h1{
+        font-size: 20px;
+    }
+    .right p{
+        font-size: 15px;
+    }
+    .result {
+        font-size: 18px;
+    }
+}
+@media (max-width:360px) {
+    .right h1{
+        font-size: 20px;
+    }
+    .right p{
+        font-size: 10px;
+    }
+    
+} */

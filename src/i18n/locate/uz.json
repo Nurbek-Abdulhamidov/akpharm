@@ -1,0 +1,32 @@
+{
+  "translations": {
+    "navbar": {
+      "product": "Mahsulotlar katalogi",
+      "partner": "Hamkorlar",
+      "bayer": "Bayer",
+      "request": "Ariza qoldirish"
+    },
+    "header": {
+      "mainHeader": "Ishonchli tibbiyot mahsulotlari distribyutori!"
+    },
+    "about": {
+      "header": "Biz haqimizda",
+      "paragraph": "Akpharm - bu sheriklar va xodimlar bilan ishonchli, halol munosabatlarga asoslangan kompaniya. Biz o'z biznesimizni kompaniya tashkil etilganidan buyon o'zgarmagan qadriyatlar va urf -odatlar asosida quramiz. Muvaffaqiyatlarimizni biz bilan umumiy biznes bilan shug'ullanadigan odamlar bilan bo'lishish biz uchun muhim. Biz rivojlanishimizni biz va mijozlarimiz oldida turgan muammolarni birgalikda hal qilishda ko'ramiz.",
+      "staff": "xodimlar",
+      "suppliers": "ta’minotchilar",
+      "client": "xaridorlar"
+    },
+    "clinic": {
+      "header": "Nega biz bilan hamkorlik qilishingiz kerak?",
+      "paragraph": "Bizdagi hamyonbop narxlar, sifatli va kamnamo mahsulotlar, samarali va doʻstona hamkorlik — bizdan xarid qilishingiz va biz bilan ishlashingiz uchun asosli sabab boʻla oladi."
+    },
+    "clinicIcon": {
+      "header": "Xususiy klinika",
+      "paragraph": "Yurtimizning eng tanilgan va xalqimiz ishonchiga ega klinika"
+    },
+    "clinicIcon1": {
+      "header": "Xususiy dorixonalar tarmogʻi",
+      "paragraph": "Butun Oʻzbekiston boʻylab ochilayotgan dorixonalar tarmogʻi"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.price {
+  /* background-image: url(../../images/image\ 59.png); */
+  padding: 30px 135px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+.price h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 51px;
+  text-align: center;
+  color: #011a61;
+}
+
+.priceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.priceIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  width: 275px;
+  height: 260px;
+  transition: all 0.4s ease;
+  padding: 30px 40px;
+}
+.priceIcon h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #081420;
+  padding: 10px 0;
+}
+.priceIcon p {
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #70798b;
+}
+.priceIcon i {
+  font-size: 25px;
+  line-height: 150%;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.priceIcon .bell {
+  color: #fa1959;
+  background-color: #fab6c9;
+}
+.priceIcon:hover .bell {
+  color: #6001d3;
+  background-color: #fff;
+}
+.priceIcon .buffer {
+  color: #6001d3;
+  background-color: #c08cff;
+}
+.priceIcon:hover .buffer {
+  color: #6001d3;
+  background-color: #fff;
+}
+.priceIcon .envelope {
+  color: #16e7d2;
+  background-color: #b4fdf6;
+}
+.priceIcon:hover .envelope {
+  color: #6001d3;
+  background-color: #fff;
+}
+.priceIcon .price {
+  color: #fcdc00;
+  background-color: #fff5b5;
+}
+.priceIcon:hover .price {
+  color: #6001d3;
+  background-color: #fff;
+}
+
+.priceIcon:hover {
+  background-color: #6001d3;
+  cursor: pointer;
+}
+.priceIcon:hover h3 {
+  color: #fff;
+}
+.priceIcon:hover p {
+  color: #fff;
+}
+
+@media (max-width:820px) {
+  .priceWrapper{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price h1{
+    font-size: 30px;
+  }
+}
+
+@media (max-width:515px) {
+  .priceIcon {
+    padding: 0 0;
+  }
+  .priceWrapper {
+    margin-top: 0;
+  }
+  .price h1{
+    font-size: 20px;
+  }
+}
+@media (max-width:470px) {
+  .priceIcon {
+    padding: 60px 0px;
+  }
+  .priceIcon i{
+    padding: 10px 15px;
+    font-size: 30px;
+  }
+  .priceIcon h3{
+    font-size: 15px;
+  }
+  .priceIcon p{
+    font-size: 10px;
+  }
+}
